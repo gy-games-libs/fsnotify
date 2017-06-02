@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/gy-games-libs/golang/x/sys/unix"
 )
 
 type testFd [2]int

@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/gy-games-libs/golang/x/sys/unix"
 )
 
 // Watcher watches a set of files, delivering events to a channel.
